@@ -1,10 +1,10 @@
 
 "use client";
 import axios from "axios";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Page = () => {
 
 
     const [isLoading, setIsLoading] = useState(false);
@@ -148,4 +148,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
