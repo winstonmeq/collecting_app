@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+
+    env: {
+        //dre eh butang ang domain.. dire lng mag change automatic na ma update ang mga domain
+    
+       
+           LOCAL_URL: 'http://localhost:3000',
+          //LOCAL_URL: 'https://vms-green.vercel.app',
+
+     },
+
+
+
+}
 
 module.exports = nextConfig
