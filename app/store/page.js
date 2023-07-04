@@ -1,10 +1,14 @@
+import Link from "next/link"
 
 
-import React from 'react'
 
 function Store_page() {
   return (
-    <div className='flex flex-col bg-slate-500 m-4 p-20'>Store_page</div>
+    <div className='flex flex-col bg-slate-500 m-4 p-20'>
+      Store_page
+    
+    <div className='text-sm'><Link href={'/add'}>Add</Link></div>
+    </div>
   )
 }
 
