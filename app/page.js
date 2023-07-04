@@ -22,6 +22,8 @@ export default function Home() {
         />
       </div>
 
+      <div className='text-xl'><Link href={'/store'}>Store</Link></div>
+
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
       <div>sdfdsf</div>      
       <div>ttt</div>
